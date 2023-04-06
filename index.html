@@ -7,6 +7,11 @@
     <title>grid-home</title>
     <link rel="stylesheet" href="./style.css" />
     <link
+    rel="stylesheet"
+    media="screen and (max-width:768px)"
+    href="./tablet.css"
+    />
+    <link
       rel="stylesheet"
       media="screen and (max-width:500px)"
       href="./mobile.css"
@@ -15,13 +20,13 @@
   <body>
     <!-- navbar -->
 
-    <nav class="navbar">
+    <nav id="navbar" class="navbar">
       <div class="container">
         <ul>
-          <li><a class="active" href="#">خانه</a></li>
-          <li><a href="#">مقالات پیشنهادی</a></li>
-          <li><a href="#">درباره ما</a></li>
-          <li><a href="#">تماس با ما</a></li>
+          <li><a class="active" href="#navbar">خانه</a></li>
+          <li><a href="#home-articles">مقالات پیشنهادی</a></li>
+          <li><a href="#footer">درباره ما</a></li>
+          <li><a href="#footer">تماس با ما</a></li>
         </ul>
         <h1 class="logo"><span>nexTalk</span>.com</h1>
       </div>
@@ -64,10 +69,12 @@
             </div>
           </article>
 
-          <article class="card">
+          <article class="card bg-dark">
             <div>
               <h3>
-                <a href="article.html"> لورم ایپسوم متن ساختگی </a>
+                <a class="bg-dark" href="article.html">
+                  لورم ایپسوم متن ساختگی
+                </a>
               </h3>
               <p>
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -80,15 +87,15 @@
           <article class="card">
             <img class="pic" src="./img/nature1.jpg" alt="" />
             <div>
-            <h3>
-              <a href="article.html"> لورم ایپسوم متن ساختگی </a>
-            </h3>
-            <p>
-              لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
-              استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
-              در ستون و سطرآنچنان که لازم است.
-            </p>
-        </div>
+              <h3>
+                <a href="article.html"> لورم ایپسوم متن ساختگی </a>
+              </h3>
+              <p>
+                لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+                استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله
+                در ستون و سطرآنچنان که لازم است.
+              </p>
+            </div>
           </article>
 
           <article class="card">
@@ -119,10 +126,12 @@
             </div>
           </article>
 
-          <article class="card bg-primary">
+          <article class="card bg-dark">
             <div>
               <h3>
-                <a href="article.html"> لورم ایپسوم متن ساختگی </a>
+                <a class="bg-dark" href="article.html">
+                  لورم ایپسوم متن ساختگی
+                </a>
               </h3>
               <p>
                 لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
@@ -151,9 +160,42 @@
 
     <!-- footer -->
 
-    <footer>
-        
+    <footer id="footer">
+      <div class="footer-part container">
+        <div class="about">
+          <h3>اشتراک و عضویت</h3>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است. چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است.
+          </p>
+          <form action="#">
+            <input type="email" name="email" placeholder="ایمیل شما " />
+            <input type="submit" value="عضویت" />
+          </form>
+        </div>
+        <div class="links">
+          <h3>لینک های سایت</h3>
+          <ul>
+            <li><a href="#navbar">خانه</a></li>
+            <li><a href="#home-articles">مقالات پیشنهادی</a></li>
+            <li><a href="#footer">درباره ما</a></li>
+            <li><a href="#footer">تماس با ما</a></li>
+          </ul>
+        </div>
+        <div class="for-us">
+          <h3 class="logo"><span>nexTalk</span>.com</h3>
+          <p>
+            لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ و با
+            استفاده از طراحان گرافیک است چاپگرها و متون بلکه روزنامه و مجله در
+            ستون و سطرآنچنان که لازم است و برای شرایط فعلی تکنولوژی مورد نیاز و
+            کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد
+          </p>
+        </div>
+        <div class="copyright">
+          <p>کپی رایت &copy; 2023, لورم ایپسوم متن ساختگی</p>
+        </div>
+      </div>
     </footer>
-
   </body>
 </html>

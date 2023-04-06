@@ -1,0 +1,13 @@
+#navbar .container{
+    max-width: 704px;
+    display: flex;
+    justify-content: space-between;
+}
+.articles-container{
+    grid-template-columns: repeat(2, 1fr);
+}
+#home-articles .articles-container article:first-child,
+#home-articles .articles-container article:last-child{
+    grid-template-columns: 1fr;
+    grid-column: 1;
+}
