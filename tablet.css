@@ -56,9 +56,6 @@
     align-self: center;
     padding: 1.5rem 1rem;
   }
-  #footer .footer-part h3{
-    /* text-align: center; */
-  }
   .links{
     transform: none;
     display: flex;
