@@ -11,7 +11,9 @@
   grid-template-columns: 1fr;
   grid-column: 1;
 }
-
+.links{
+    transform: none;
+}
 @media screen and (max-width: 500px) {
   #navbar .container {
     display: grid;
