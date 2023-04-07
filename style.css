@@ -241,6 +241,7 @@ color: var(--clr-white);
 }
 #footer .footer-part .copyright p:last-child{
   text-align: center;
+  margin: 1rem 0 1rem 0;
 }
 .about form input[type='email']{
   padding: .75rem;
